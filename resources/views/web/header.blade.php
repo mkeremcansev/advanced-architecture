@@ -42,7 +42,7 @@
                     <span>EMAIL : <a href="mailto:{{ setting('mail') }}">{{ setting('mail') }}</a></span>
                 </div>
                 <div id="nav-icon">
-                  <span>close</span>
+                  <span>@lang('words.close')</span>
                   <div class="menu-line white"></div>
                   <div class="menu-line1 white"></div>
                   <div class="menu-line2 white"></div>

@@ -26,6 +26,7 @@ return [
     'all_projects' => 'Tüm projeler',
     'category_for_projects' => ':title kategorisine ait projeler',
     'category_not_projects' => ':title kategorisine ait proje bulunmuyor',
+    'close' => 'Kapat',
 
 
     'title' => 'Başlık',

@@ -76,12 +76,11 @@
       </ul>
     </div>
     <div class="share">
-      <span class="share_title">Follow us : </span>
-      <ul>
-        <li><a class="sharesoc" target="_blank" href="#"><i class="fa fa-facebook-f"></i></a></li>
-        <li><a class="sharesoc" target="_blank" href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a class="sharesoc" target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="sharesoc" target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+      <ul class="pb-4">
+        <li><a class="sharesoc" target="_blank" href="{{ setting('facebook') }}"><i class="fa fa-facebook-f"></i></a></li>
+        <li><a class="sharesoc" target="_blank" href="{{ setting('twitter') }}"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sharesoc" target="_blank" href="{{ setting('instagram') }}"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="sharesoc" target="_blank" href="https://api.whatsapp.com/send?phone={{ setting('whatsapp') }}"><i class="fa fa-whatsapp"></i></a></li>
       </ul>
     </div>
   </div>
