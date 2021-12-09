@@ -2018,7 +2018,6 @@
     address.cont-1 span strong {
     font-weight: 600!important;
     display: inline-block;
-    width: 75px;
     position: relative;
     margin-right: 5px;
     }
@@ -2204,9 +2203,9 @@
     ul.list-menu li{
         display: inline-block;
     }
-    ul.list-menu li:nth-child(3){
+    /* ul.list-menu li:nth-child(3){
         margin-left: 30px;
-    }
+    } */
     ul.list-menu li a.active{
     color: #c8b16f!important;
     }
