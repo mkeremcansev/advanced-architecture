@@ -31,6 +31,15 @@ return [
     'category_not_projects' => ':title kategorisine ait proje bulunmuyor',
     'gallery_not_images' => 'Galeride resim bulunmuyor.',
     'close' => 'Kapat',
+    'password' => 'Şifre',
+    'login_error' => 'Giriş işlemi başarısız.',
+    'login_success' => 'Giriş işlemi başarıyla gerçekleşti.',
+    'logout_success' => 'Çıkış işlemi başarıyla gerçekleşti.',
+    'is_login' => 'Giriş yaptıktan sonra herhangi bir Auth(Giriş) sayfasına giremezsiniz.',
+    'not_auth' => 'Giriş işlemi başarısız.',
+    'login' => 'Giriş Yap',
+    'logout' => 'Çıkış Yap',
+    'profile' => 'Profil',
 
 
     'title' => 'Başlık',
@@ -53,6 +62,7 @@ return [
     'images' => 'Resimler',
     'updated_image' => 'Güncel Resim',
     'category' => 'Kategori',
+    'categories' => 'Kategoriler',
     'actions' => 'İşlemler',
     'edit' => 'Düzenle',
     'delete' => 'Sil',

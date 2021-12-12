@@ -32,6 +32,7 @@ class ViewShareProvider extends ServiceProvider
             view()->share('galleries', Gallery::orderBy('id', 'DESC')->get());
             view()->share('categories', Category::with('getCategoryProjects')->orderBy('id', 'DESC')->get());
             view()->share('projects', Project::with('getProjectGalleryImages', 'getProjectCategory')->orderBy('id', 'DESC')->get());
+            view()->share('category', Category::inRandomOrder()->first());
         }
     }
 }

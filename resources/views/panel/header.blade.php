@@ -41,7 +41,7 @@
 					aria-expanded="false">
 					<div class="user-nav d-sm-flex d-none">
 						<span class="user-name font-weight-bolder">
-							asdas
+							{{ Auth::user()->name }}
 						</span>
 						<span class="user-status">Yönetici</span>
 					</div>
@@ -52,8 +52,8 @@
 					</span>
 				</a>
 				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-user">
-					<a class="dropdown-item" href=""><i class="mr-50"></i>@lang('words.profile')</a>
-					<a class="dropdown-item" href=""><i class="mr-50"></i>@lang('words.logout')</a>
+					<a class="dropdown-item" href="{{ route('panel.account.index') }}"><i class="mr-50"></i>@lang('words.profile')</a>
+					<a class="dropdown-item" href="{{ route('panel.logout.create') }}"><i class="mr-50"></i>@lang('words.logout')</a>
 				</div>
 			</li>
 		</ul>

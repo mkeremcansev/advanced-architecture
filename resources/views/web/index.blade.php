@@ -12,18 +12,11 @@
       <div class="col-lg-7 mb-5 onStep" data-animation="fadeInLeft" data-time="300">
         <div class="p60 pl-0">
           <h3 class="headingcontent">
-            Our Company Story
+            @lang('words.categories')
           </h3>
           <p>
-            Donec at cursus sem. Duis condimentum posuere purus, at venenatis tellus mollis. Vestibulum cursus convallis
-            venenatis. Sed ut blandit mauris. Lorem non suscipit. Proin pretium consequat est, sit amet consectetur
-            luctus vel. Etiam quis interdum felis, at pellentesque metus. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas in pulvinar neque.
+            {{ $category->description }}
           </p>
-          <div class="year">
-            <div class="heading">12</div>
-            <div class="subheading dd4425">Year <br>Experience<br> Working</div>
-          </div>
         </div>
       </div>
 

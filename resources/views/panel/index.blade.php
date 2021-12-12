@@ -20,6 +20,12 @@ Ana Sayfa
                                     {{ $message }}
                                 </div>
                             </div>
+                        @elseif ($message = Session::get('error'))
+                            <div class="alert alert-warning" role="alert">
+                                <div class="alert-body">
+                                    {{ $message }}
+                                </div>
+                            </div>
                         @endif
                         <div class="card card-congratulations">
                             <div class="card-body text-center">
