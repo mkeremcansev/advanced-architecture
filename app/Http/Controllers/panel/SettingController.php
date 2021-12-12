@@ -50,7 +50,7 @@ class SettingController extends Controller
             'phone' => 'required|max:255',
             'footer' => 'required|max:255',
             'logo' => 'mimes:jpeg,png,jpg,svg|max:4096',
-            'favicon' => 'mimes:ico|max:2048',
+            'favicon' => 'mimes:ico,png|max:2048',
         ]);
         $data = [
             'title' => $request->title,
