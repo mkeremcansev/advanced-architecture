@@ -37,7 +37,7 @@ Ana Sayfa
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <h1 class="mb-1 text-white">Tekrardan aramıza hoşgeldin, asdasda.</h1>
+                                    <h1 class="mb-1 text-white">Tekrardan aramıza hoşgeldin, {{ Auth::user()->name }}.</h1>
                                 </div>
                             </div>
                         </div>

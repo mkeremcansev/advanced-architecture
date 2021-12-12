@@ -45,7 +45,7 @@
 						</span>
 						<span class="user-status">Yönetici</span>
 					</div>
-					<span class="avatar"><img class="round" src="{{ asset('Back/app-assets/images/portrait/small/avatar-s-11.jpg') }}" alt="" height="40" width="40">
+					<span class="avatar"><img class="round" src="{{ asset('panel/app-assets/images/portrait/small/mk.png') }}" alt="{{ Auth::user()->name }}" height="40" width="40">
 						<span class="avatar-status-online">
 
 						</span>
