@@ -33,7 +33,7 @@
 				</ul>
 			</div>
 			<ul class="nav navbar-nav align-items-center ml-auto">
-				<h4>Admin Panel</h4>
+				<h4>{{ setting('title') }}</h4>
 			</ul>
 			<ul class="nav navbar-nav align-items-center ml-auto">
 				<li class="nav-item dropdown dropdown-user"><a class="nav-link dropdown-toggle dropdown-user-link"
@@ -65,7 +65,7 @@
 		<div class="navbar-container main-menu-content" data-menu="menu-container">
 			<ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
 				<li class="nav-item">
-					<a href="" class="nav-link d-flex align-items-center">
+					<a href="{{ route('panel.main') }}" class="nav-link d-flex align-items-center">
 						<i data-feather="home"></i>
 						<span>@lang('words.homepage')</span>
 					</a>
@@ -77,6 +77,12 @@
 							<a class="dropdown-item d-flex align-items-center" href="{{ route('panel.setting.index') }}" data-toggle="dropdown" >
 								<i data-feather="chevrons-right"></i>
 								<span>@lang('words.general_setting')</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item d-flex align-items-center" href="{{ route('panel.about.index') }}" data-toggle="dropdown" >
+								<i data-feather="chevrons-right"></i>
+								<span>@lang('words.general_content')</span>
 							</a>
 						</li>
 					</ul>
@@ -132,9 +138,25 @@
 						</li>
 					</ul>
 				</li>
+				<li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" data-toggle="dropdown"><i data-feather="image"></i><span>@lang('words.gallery')</span></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a class="dropdown-item d-flex align-items-center" href="{{ route('panel.gallery.create') }}" data-toggle="dropdown" >
+								<i data-feather="chevrons-right"></i>
+								<span>@lang('words.gallery_add')</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item d-flex align-items-center" href="{{ route('panel.gallery.index') }}" data-toggle="dropdown" >
+								<i data-feather="chevrons-right"></i>
+								<span>@lang('words.gallery_list')</span>
+							</a>
+						</li>
+					</ul>
+				</li>
 
 				<li class="nav-item">
-					<a href="" target="_blank" class="nav-link d-flex align-items-center">
+					<a href="{{ route('web.main') }}" target="_blank" class="nav-link d-flex align-items-center">
 						<i data-feather="globe"></i>
 						<span>@lang('words.preview')</span>
 					</a>

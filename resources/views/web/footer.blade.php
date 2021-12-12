@@ -5,8 +5,8 @@
         <div class="widget footer-links">
           <ul class="list-menu">
             <li><a href="{{ route('web.main') }}">@lang('words.homepage')</a></li>
-            <li><a href="">@lang('words.about_us')</a></li>
             <li><a href="{{ route('web.project.index') }}">@lang('words.projects')</a></li>
+            <li><a href="{{ route('web.gallery.index') }}">@lang('words.gallery')</a></li>
             <li><a href="{{ route('web.contact.index') }}">@lang('words.contact')</a></li>
           </ul>
         </div>

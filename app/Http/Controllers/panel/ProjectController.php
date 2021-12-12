@@ -55,12 +55,12 @@ class ProjectController extends Controller
         $project->slug = Str::slug($request->title);
         $project->image = Helper::imageUpload($request->file('image'), 'images');
         $project->save();
-        foreach ($request->gallery as $galleryItem) {
+        foreach ($request->gallery as $galleryItem) :
             $gallery = new ProjectGallery;
             $gallery->project_id = $project->id;
             $gallery->image = Helper::imageUpload($galleryItem, 'images');
             $gallery->save();
-        }
+        endforeach;
         return back()->with('success', __('words.added_success'));
     }
 
@@ -114,12 +114,12 @@ class ProjectController extends Controller
         endif;
         $project->save();
         if ($request->hasFile('gallery')) :
-            foreach ($request->gallery as $galleryItem) {
+            foreach ($request->gallery as $galleryItem) :
                 $gallery = new ProjectGallery;
                 $gallery->project_id = $id;
                 $gallery->image = Helper::imageUpload($galleryItem, 'images');
                 $gallery->save();
-            }
+            endforeach;
         endif;
         return back()->with('success', __('words.updated_success'));
     }

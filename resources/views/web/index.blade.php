@@ -55,17 +55,33 @@
   </div>
 </section>
 @include('web.layouts.index_projects')
-<section class="dot" aria-label="tagline">
+<section class="dot" aria-label="tagline" id="about_us">
   <div class="container-fluid">
     <div class="row p-4-vh ml-mr-30">
 
       <div class="col-md-12">
         <div class="wrapheading">
-          <h2 class="heading">OUR VISION</h2>
+          <h2 class="heading">@lang('words.about_us')</h2>
         </div>
-        <p class="tagline">Architectural works of art, in the material form of buildings, are often perceived as
-          cultural symbols and as works of art. Historical civilizations are often identified with their surviving
-          architectural achievements.</p>
+        <p class="tagline">
+          {{ setting('about') }}
+        </p>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="wrapheading">
+          <h2 class="heading">@lang('words.our_mission')</h2>
+        </div>
+        <p class="tagline">
+          {{ setting('mission') }}
+        </p>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="wrapheading">
+          <h2 class="heading">@lang('words.our_vision')</h2>
+        </div>
+        <p class="tagline">
+          {{ setting('vision') }}
+        </p>
       </div>
 
     </div>

@@ -54,6 +54,10 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
+                                        <label for="category_name">@lang('words.location')</label>
+                                        <input type="text" class="form-control" name="location" value="{{ $project->location }}">
+                                    </div>
+                                    <div class="form-group">
                                         <label for="category_name">@lang('words.client')</label>
                                         <input type="text" class="form-control" name="client" value="{{ $project->client }}">
                                     </div>

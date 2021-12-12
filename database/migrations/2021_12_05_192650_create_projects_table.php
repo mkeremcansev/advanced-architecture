@@ -20,6 +20,7 @@ class CreateProjectsTable extends Migration
             $table->longText('description');
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories')->cascadeOnDelete();
+            $table->string('location');
             $table->string('client');
             $table->string('date');
             $table->string('budget');

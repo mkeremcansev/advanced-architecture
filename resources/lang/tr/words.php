@@ -3,6 +3,8 @@ return [
     'homepage' => 'Ana Sayfa',
     'contact' => 'İletişim',
     'about_us' => 'Hakkımızda',
+    'our_mission' => 'Misyonumuz',
+    'our_vision' => 'Vizyonumuz',
     'contact_us' => 'İletişime Geçin',
     'projects' => 'Projeler',
     '' => '',
@@ -16,6 +18,7 @@ return [
     'hide_detail' => 'Detay Gizle',
     'show_detail' => 'Detay Göster',
     'preview' => 'Önizle',
+    'location' => 'Konum',
     'client' => 'Müşteri',
     'date' => 'Tarih',
     'budget' => 'Bütçe',
@@ -26,6 +29,7 @@ return [
     'all_projects' => 'Tüm projeler',
     'category_for_projects' => ':title kategorisine ait projeler',
     'category_not_projects' => ':title kategorisine ait proje bulunmuyor',
+    'gallery_not_images' => 'Galeride resim bulunmuyor.',
     'close' => 'Kapat',
 
 
@@ -55,6 +59,7 @@ return [
     'save' => 'Kaydet',
     '' => '',
     'general' => 'Genel',
+    'general_content' => 'Genel İçerik',
     'setting_keywords_alert' => 'Bu alan "anahtar, kelimeler," şeklinde girilmelidir.',
 
 
@@ -73,8 +78,13 @@ return [
     'project_add' => 'Proje Ekle',
     'project_edit' => 'Proje Düzenle',
 
-    'gallery' => 'Galeri',
+
     'general_setting' => 'Genel Ayar',
+
+
+    'gallery' => 'Galeri',
+    'gallery_list' => 'Galeri Listesi',
+    'gallery_add' => 'Galeri Ekle',
 
 
 

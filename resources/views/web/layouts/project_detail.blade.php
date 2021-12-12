@@ -63,6 +63,10 @@
                         {{ $project->getProjectCategory->title }}
                     </span>
                     <span>
+                        <strong>@lang('words.location')</strong><span>:</span> 
+                        {{ $project->location }}
+                    </span>
+                    <span>
                         <strong>@lang('words.client')</strong><span>:</span> 
                         {{ $project->client }}
                     </span>

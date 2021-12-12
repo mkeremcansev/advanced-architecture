@@ -9,7 +9,7 @@ class Project extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'description', 'category_id', 'client', 'date', 'budget', 'duration'];
+    protected $fillable = ['title', 'description', 'category_id', 'location', 'client', 'date', 'budget', 'duration'];
 
     public function getProjectGalleryImages()
     {

@@ -132,14 +132,14 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-4 col-6">
-                                        <h4 class="card-title">Güncel Logo</h4>
+                                        <h4 class="card-title">@lang('words.update_logo')</h4>
                                         <a href="javascript:void(0)">
                                             <img width="150" src="{{ asset(setting('logo')) }}"
                                                 class="img-fluid rounded mb-1" />
                                         </a>
                                     </div>
                                     <div class="col-md-4 col-6">
-                                        <h4 class="card-title">Güncel Favicon</h4>
+                                        <h4 class="card-title">@lang('words.update_favicon')</h4>
                                         <a href="javascript:void(0)">
                                             <img width="20" src="{{ asset(setting('favicon')) }}"
                                                 class="img-fluid rounded mb-1" />
