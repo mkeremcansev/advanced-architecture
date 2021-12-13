@@ -1,4 +1,4 @@
-@extends('Panel.main')
+@extends('panel.main')
 @section('title')
 {{ Auth::user()->name }}
 @endsection

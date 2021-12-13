@@ -5,6 +5,7 @@ use App\Http\Controllers\panel\AccountController;
 use App\Http\Controllers\panel\CategoryController;
 use App\Http\Controllers\panel\GalleryController;
 use App\Http\Controllers\panel\LoginController;
+use App\Http\Controllers\panel\MessageController;
 use App\Http\Controllers\panel\ProjectController;
 use App\Http\Controllers\panel\ProjectGalleryController;
 use App\Http\Controllers\panel\SettingController;
@@ -25,5 +26,6 @@ Route::middleware('auth')->prefix('admin/')->name('panel.')->group(function () {
     Route::resource('about', AboutController::class);
     Route::resource('gallery', GalleryController::class);
     Route::resource('account', AccountController::class);
+    Route::resource('message', MessageController::class);
     Route::get('logout', [LoginController::class, 'logout'])->name('logout.create');
 });

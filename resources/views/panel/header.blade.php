@@ -85,6 +85,12 @@
 								<span>@lang('words.general_content')</span>
 							</a>
 						</li>
+						<li>
+							<a class="dropdown-item d-flex align-items-center" href="{{ route('panel.message.index') }}" data-toggle="dropdown" >
+								<i data-feather="chevrons-right"></i>
+								<span>@lang('words.message_list')</span>
+							</a>
+						</li>
 					</ul>
 				</li>
 

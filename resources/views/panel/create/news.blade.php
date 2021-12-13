@@ -1,4 +1,4 @@
-@extends('Panel.main')
+@extends('panel.main')
 @section('title')
 @lang('words.news_add')
 @endsection

@@ -39,9 +39,6 @@
                         <a class="brand-logo" href="javascript:void(0);">
                             <h2 class="brand-text text-primary ml-1">{{ setting('title') }}</h2>
                         </a>
-                        <div class="d-none d-lg-flex col-lg-8 align-items-center p-5">
-                            <div class="w-100 d-lg-flex align-items-center justify-content-center px-5"><img class="img-fluid" src="{{ asset('panel/app-assets/images/pages/canseworks.svg') }}"/></div>
-                        </div>
                         <div class="d-flex col-lg-4 align-items-center auth-bg px-2 p-lg-5">
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
                                 <h2 class="card-title font-weight-bold mb-1">Admin panel</h2>

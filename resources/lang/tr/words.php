@@ -11,6 +11,7 @@ return [
     '' => '',
     '' => '',
     '' => '',
+    'message_list' => 'Mesaj Listesi',
     'name_surname' => 'İsim Soyisim',
     'content' => 'İçerik',
     'send' => 'Gönder',
