@@ -1,2 +1,1 @@
-# Laravel 8 Advanced Archeticture
-- Working...
+# Laravel 8 Advanced Architecture
